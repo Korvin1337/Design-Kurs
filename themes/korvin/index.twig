@@ -1,0 +1,23 @@
+<body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
+    <header class="site-header">
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+        </a>
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                <li{% if page.id == current_page.id %} class="active" {% endif %}>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                    {% endfor %}
+            </ul>
+        </div>
+    </header>
+    <footer class="site-footer">
+        <p>Min footer</p>
+    </footer>
+    <script src="{{ theme_url }}/../shared/js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
+    <script src="{{ theme_url }}/../shared/js/utils.js" type="text/javascript"></script>
+    <script src="{{ theme_url }}/../shared/js/responsive-navbar.js" type="text/javascript"></script>
+</body>
