@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: The course report page
+icon: fas fa-book
 ---
 
 Redovisningssida för design

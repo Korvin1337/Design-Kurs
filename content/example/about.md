@@ -1,5 +1,5 @@
 ---
-Title: About
+Title:
 Description: My about page.
 ---
 

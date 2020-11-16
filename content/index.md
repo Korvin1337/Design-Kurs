@@ -1,9 +1,12 @@
 ---
 Title: Home
 Description: This is our index page.
+icon: fas fa-h-square
 ---
 
 Home page
 ==========================
 
-My names is Kevin Lejon and i´m 23 years old. Im from Växjö and i like to race in Zwift with Team Swedish Zwifters and to do triathlon and when time allows it, I game.
+My name is Kevin Lejon and I´m 23 years old. Im from Växjö, now living in Karlshamn. I like all kinds of sports, from hockey to rally.
+
+![me](%assets_url%/img/itsme.jpg){.me}
