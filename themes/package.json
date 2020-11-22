@@ -1,12 +1,26 @@
 {
   "name": "themes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass korvin/scss/style.scss korvin/css/style.css --no-source-map --watch",
+    "watch-min": "sass korvin/scss/style.scss korvin/css/style.min.css --no-source-map --style compressed --watch",
+    "style": "sass korvin/scss/style.scss korvin/css/style.css --no-source-map",
+    "style-min": "sass korvin/scss/style.scss korvin/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  },
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.29.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-sass-guidelines": "^7.1.0"
+  },
+  "description": ""
 }
