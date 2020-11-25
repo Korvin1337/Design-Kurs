@@ -13,8 +13,7 @@ Efter det tog jag tillbaka mitt eget tema igen med min egen css och fixade en ny
 Det första jag gjorde var att hitta vilka ikoner jag ville ha samt fixade strukturen på hemsidan så att det gick att klicka runt sig.
 Jag hade dock problem med att jag inte hade satt ett tema för min font på hemsidan. Jag valde sans-serif på bodyn och FontAwesome till headern och footern så att ikonerna funkade, något jag fastnade på ett tag.
 För att få en bild som passade bättre som flash bild tog jag en bild på nätet och konverterade om dess mått till 1800px width och 120 höjd om jag har för mig rätt.
-Sedan satt jag villkoret att width på flash bilden skulle vara 100%.
-
+Sedan satt jag villkoret att width på flash bilden skulle vara 100%.</br>
 Har du jobbat med ramverk eller andra CMS:er tidigare?
 Nej det har jag inte.
 Det blev en del nya verktyg och tekniker i labbmiljön och för att jobba med portfolio-sidan, är du bekant med någon av dem sedan tidigare?
@@ -24,4 +23,4 @@ Jag tror inte det.
 Hur kändes det att göra din egna layout och styla den? Gick det bra?
 Det gick sådär, men tillslut funkade det väl.
 Vilken är din TIL för detta kmom?
-Att man kan skapa sidor med hjälp av pico och hur man automatiskt kan hitta filer med md slut t.ex när jag la till min flash bild behöver jag bara berätta vad mappen hette som den låg i och inte specifiera var mappen befann sig. 
+Att man kan skapa sidor med hjälp av pico och hur man automatiskt kan hitta filer med md slut t.ex när jag la till min flash bild behöver jag bara berätta vad mappen hette som den låg i och inte specifiera var mappen befann sig.
