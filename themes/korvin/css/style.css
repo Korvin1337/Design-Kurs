@@ -6493,7 +6493,7 @@ h6 {
 }
 
 .header {
-  background-color: #555555;
+  background-color: #555;
 }
 
 .flash-img {
@@ -6531,10 +6531,10 @@ body {
 
 .footer {
   max-width: 50%;
-  border: 2px #000000;
+  border: 2px #000;
   padding: 2em;
   margin: 1em;
-  background-color: #555555;
+  background-color: #555;
   left: 22.5%;
   position: relative;
 }
