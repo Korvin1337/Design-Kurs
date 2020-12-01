@@ -1,0 +1,18 @@
+.wrapper {
+    display: grid;
+    gap: 1em 1em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box {
+    justify-self: center;
+    grid-column: span 3;
+    grid-template-columns: 20% 20% auto;
+    grid-template-rows: 4em 2em 2em;
+}

@@ -1,16 +1,46 @@
 ---
 Title: Report
 Description: The course report page
+Template: report
 icon: fas fa-book
 ---
 
-Redovisningssida för design
+Report
 ==================
 
-* [kmom01](report/kmom01)
+<div class="kmom-box">
+<a href="report/kmom01">kmom01</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom02">kmom02</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom03">kmom03</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom04">kmom04</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom05">kmom05</a>
+</div>
+
+<div class="kmom-box">
+<a href="report/kmom06">kmom06</a>
+</div>
+
+<div class="kmom-box project">
+<a href="report/kmom10">kmom10</a>
+</div>
+
+
+<!-- [kmom01](report/kmom01)
 * [kmom02](report/kmom02)
 * [kmom03](report/kmom03)
 * [kmom04](report/kmom04)
 * [kmom05](report/kmom05)
 * [kmom06](report/kmom06)
-* [kmom10](report/kmom10)
+* [kmom10](report/kmom10) -->
