@@ -6471,9 +6471,10 @@ readers do not read off random characters that represent icons */
 
 .kmom-box {
   justify-self: center;
-  grid-column: span 3;
-  grid-template-columns: 20% 20% auto;
-  grid-template-rows: 4em 2em 2em;
+}
+
+.landingpage.wrapper p {
+  white-space: pre-line;
 }
 
 .content p {
@@ -6557,12 +6558,11 @@ body {
 }
 
 .footer {
-  max-width: 50%;
+  max-width: 100%;
   border: 2px #000;
   padding: 2em;
   margin: 1em;
   background-color: #555;
-  left: 22.5%;
   position: relative;
 }
 

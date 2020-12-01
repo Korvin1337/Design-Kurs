@@ -12,7 +12,11 @@
 
 .kmom-box {
     justify-self: center;
-    grid-column: span 3;
-    grid-template-columns: 20% 20% auto;
-    grid-template-rows: 4em 2em 2em;
+    //grid-column: span 3;
+    //grid-template-columns: 20% 20% auto;
+    //grid-template-rows: 4em 2em 2em;
+}
+
+.landingpage.wrapper p {
+    white-space: pre-line;
 }
