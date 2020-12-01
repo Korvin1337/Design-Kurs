@@ -6477,6 +6477,29 @@ readers do not read off random characters that represent icons */
   white-space: pre-line;
 }
 
+.header {
+  display: grid;
+  justify-content: center;
+  overflow: auto;
+}
+
+.container {
+  display: grid;
+}
+
+.logo {
+  grid-column: span 1;
+}
+
+.title {
+  margin-top: 69%;
+  margin-left: -72%;
+}
+
+.nav {
+  grid-column: span 3;
+}
+
 .content p {
   margin-left: 15%;
 }
