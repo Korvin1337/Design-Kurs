@@ -2,6 +2,7 @@
 Title: About
 Description: This is our about page.
 icon: fas fa-info
+Template: index
 ---
 
 About

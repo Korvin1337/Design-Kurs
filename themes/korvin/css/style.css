@@ -6460,8 +6460,7 @@ readers do not read off random characters that represent icons */
 .wrapper {
   display: grid;
   gap: 1em 1em;
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .landingpage h1 {
@@ -6469,45 +6468,45 @@ readers do not read off random characters that represent icons */
   justify-self: center;
 }
 
-.kmom-box {
-  justify-self: center;
-}
-
-.landingpage.wrapper p {
+.landingpage p {
   white-space: pre-line;
 }
 
-.header {
-  display: grid;
-  justify-content: center;
-  overflow: auto;
+.sidenav {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  border-top: 3px solid #555;
+  border-right: 3px solid #555;
+  border-bottom: 3px solid #555;
 }
 
-.container {
-  display: grid;
+.sidenav a {
+  padding: 5px;
+  display: block;
 }
 
-.logo {
-  grid-column: span 1;
+.sidenav a:hover {
+  color: #24fc20;
 }
 
-.title {
-  margin-top: 69%;
-  margin-left: -72%;
+.main {
+  margin-left: 140px;
+  padding: 0 45px;
 }
 
-.nav {
-  grid-column: span 3;
-}
+@media (max-width: 767px) {
+  .main {
+    font-size: 12px;
+    margin-left: 80px;
+    padding: 0px 5px;
+  }
 
-.content p {
-  margin-left: 15%;
+  .sidenav {
+    top: 75%;
+    padding: 2px;
+  }
 }
-
-.footer {
-  max-width: 60%;
-}
-
 * {
   font-family: "Roboto", sans-serif;
 }
