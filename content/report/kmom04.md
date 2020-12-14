@@ -7,4 +7,33 @@ Template: kmom
 Kursmoment 4
 ==================
 
-Vi testar en undersida
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.

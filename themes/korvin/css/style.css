@@ -6472,6 +6472,43 @@ readers do not read off random characters that represent icons */
   white-space: pre-line;
 }
 
+.kmom-box {
+  grid-column: span 1;
+  border-top: 35px solid #cece71;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  border-bottom: 5px solid #cece71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.kmom-box a {
+  position: relative;
+  left: -40%;
+  top: -50%;
+  text-decoration: underline;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 1;
+  }
+
+  .kmom-box a {
+    position: relative;
+    left: 0;
+    top: -70%;
+    text-decoration: underline;
+  }
+}
 .sidenav {
   position: absolute;
   top: 60%;
@@ -6479,6 +6516,7 @@ readers do not read off random characters that represent icons */
   border-top: 3px solid #555;
   border-right: 3px solid #555;
   border-bottom: 3px solid #555;
+  background-color: #555;
 }
 
 .sidenav a {
@@ -6487,11 +6525,11 @@ readers do not read off random characters that represent icons */
 }
 
 .sidenav a:hover {
-  color: #24fc20;
+  color: #1000ff;
 }
 
 .main {
-  margin-left: 140px;
+  margin-left: 30px;
   padding: 0 45px;
 }
 
@@ -6499,7 +6537,7 @@ readers do not read off random characters that represent icons */
   .main {
     font-size: 12px;
     margin-left: 80px;
-    padding: 0px 5px;
+    padding: 0 5px;
   }
 
   .sidenav {

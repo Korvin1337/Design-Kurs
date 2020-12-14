@@ -1,0 +1,3 @@
+Denna veckans kmom var mer utmanande och jag hade problem med att installera alla paket men det löste just sig tillslut.
+Fick endel error meddelande osv men jag lyckades lösa det genom att installera om det samt få hjälp i discord chatten.
+Efter alla paket var installerade så påbörjade jag med den nya designen för hemsidan.
